@@ -1,1 +1,1 @@
-web: java -jar build/libs/spring_railway-0.0.1-SNAPSHOT.jar
+web: java -jar javaApi-springRailway\build\libs\spring_railway-0.0.1-SNAPSHOT.jar

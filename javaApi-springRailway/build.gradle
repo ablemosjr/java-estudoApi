@@ -28,7 +28,7 @@ dependencies {
 
 tasks.jar {
 	manifest {
-		attributes["Main-Class"] = "java.estudo.apirest.spring_railway.Application"
+		attributes["Main-Class"] = "javaApi-springRailway/src/main/java/estudo/apirest/spring_railway/Application.java"
 	}
 }
 

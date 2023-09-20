@@ -1,4 +1,4 @@
-package estudo.apirest.spring_railway.model;
+package estudo.apirest.spring_railway.domain.model;
 
 import jakarta.persistence.Entity;
 

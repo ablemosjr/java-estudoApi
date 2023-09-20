@@ -1,6 +1,0 @@
-version: 1
-name: spring_railway
-build:
-  - gradle build
-deploy:
-  - cp build/libs/*.jar app.jar

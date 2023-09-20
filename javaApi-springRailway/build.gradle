@@ -26,6 +26,12 @@ dependencies {
 
 }
 
+tasks.jar {
+	manifest {
+		attributes["Main-Class"] = "java.estudo.apirest.spring_railway.Application"
+	}
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }

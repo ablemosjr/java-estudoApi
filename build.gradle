@@ -26,9 +26,10 @@ dependencies {
 
 }
 
-tasks.jar {
+jar {
+	enabled = false
 	manifest {
-		attributes["Main-Class"] = "estudo.apirest.spring_railway"
+		attributes["Main-Class"] = "estudo.apirest.spring_railway.Application"
 //"estudo.apirest.spring_railway.Application"
 	}
 }

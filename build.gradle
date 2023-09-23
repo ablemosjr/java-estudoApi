@@ -21,7 +21,6 @@ dependencies {
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
 	implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.1.0'
 
 }
@@ -30,7 +29,6 @@ jar {
 	enabled = false
 	manifest {
 		attributes["Main-Class"] = "estudo.apirest.spring_railway.Application"
-//"estudo.apirest.spring_railway.Application"
 	}
 }
 
